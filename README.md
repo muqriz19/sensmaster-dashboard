@@ -1,24 +1,22 @@
 # sensmaster-dashboard
 
-## Project setup
-```
-npm install
-```
+## What?
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A dashboard to showcase CRUD of user and its (mock) APIs
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Prerequisite
 
-### Lints and fixes files
-```
-npm run lint
-```
+You may need to install Node.js version 8.9 or above to start using this project
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Instructions
+
+After installing all required tools:
+
+1. - npm run install
+2. - npm run serve
+3. - on browser go to localhost:8080
+
+## Credentials Used
+
+Username: eve.holt@reqres.in
+Password: cityslicka
