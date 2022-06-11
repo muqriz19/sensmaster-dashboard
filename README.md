@@ -4,6 +4,8 @@
 
 A dashboard to showcase CRUD of user and its (mock) APIs
 
+Also a part of the assesment
+
 ## Prerequisite
 
 You may need to install Node.js version 8.9 or above to start using this project
