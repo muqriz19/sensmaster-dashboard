@@ -1,5 +1,5 @@
 <template>
-  <div class="about-view-container p-4">
+  <div class="about-view-container p-3 page">
     <h4>Dashboard created by Muhammad Muqriz Bin Othman</h4>
 
     <div class="change-log-box">
@@ -125,6 +125,14 @@ export default defineComponent({
               description:
                 "Added check to route so unlogged user cannot access dashboard",
             },
+            {
+              feature: "Fixed UI Bug",
+              description: "Fixed UI Bug on Sidebar and Page",
+            },
+            {
+              feature: "Clean Up",
+              description: "Clean up code on comment and unused variables",
+            },
           ],
         },
       ].reverse()
@@ -136,6 +144,7 @@ export default defineComponent({
 
 <style lang="less" scoped>
 .change-log-box {
+  margin-bottom: 8rem;
   .feature-container {
     font-size: 12px;
   }

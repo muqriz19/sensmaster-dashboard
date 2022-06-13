@@ -1,5 +1,5 @@
 <template>
-  <div class="user-view-container p-3">
+  <div class="user-view-container p-3 page">
     <div class="action">
       <Button
         label="Add User"

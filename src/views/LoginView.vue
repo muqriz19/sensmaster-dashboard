@@ -14,7 +14,7 @@
       <p>Dashboard</p>
     </div>
 
-    <form class="card p-4 flex flex-column justify-content-center">
+    <form class="card p-3 flex flex-column justify-content-center">
       <div class="field flex flex-column">
         <label for="email">Email</label>
         <InputText

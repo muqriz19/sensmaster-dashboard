@@ -1,5 +1,5 @@
 <template>
-  <div class="user-by-id-container p-4">
+  <div class="user-by-id-container p-3">
     <div class="action-container mb-2">
       <Button
         label="Edit"

@@ -1,5 +1,5 @@
 <template>
-  <div class="faq-container p-4">
+  <div class="faq-container p-3">
     <div class="faq-box">
       <h2>All your question answered here...</h2>
 
