@@ -71,6 +71,10 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     redirect: "/login",
   },
+  {
+    path: "/:pathMatch(.*)*",
+    redirect: "/login",
+  },
   // {
   //   path: '/about',
   //   name: 'about',
