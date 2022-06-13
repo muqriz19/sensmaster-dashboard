@@ -138,9 +138,10 @@ export default createStore({
       context.commit("removePageHeaderData", data);
     },
 
-    logUserOut(context) {
-      return Promise.resolve(() => {
+    logUserOut(context): Promise<void> {
+      return new Promise((resolve, reject) => {
         clearData();
+        resolve();
       });
     },
   },
