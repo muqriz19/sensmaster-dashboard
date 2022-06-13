@@ -96,8 +96,8 @@ export default defineComponent({
   width: 200px;
   background: #346751;
   box-shadow: 2px 0px 0px rgb(195, 190, 189);
+  height: 100%;
 
-  height: 100vh;
   .menu-item {
     text-align: center;
     letter-spacing: 0.5px;

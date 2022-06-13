@@ -34,5 +34,10 @@ export default {
 <style lang="less" scoped>
 .dashboard-container {
   height: 100vh;
+  overflow-y: hidden;
+
+  .center {
+    height: 100%;
+  }
 }
 </style>
